@@ -11,4 +11,4 @@ exports.up = knex => (
     })
 );
 
-exports.down = knex => knex.schema.dropTableIfExistss('roles');
+exports.down = knex => knex.schema.dropTableIfExistss('cohorts');
